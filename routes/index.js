@@ -3,7 +3,7 @@ const router = express.Router();
 
 console.log('Inside Router');
 
-router.get('/',require('./api'));
+router.use('/',require('./api'));
 
 //for any further router, access from here
 //router.use('/routerName',require('./routerfile'))
