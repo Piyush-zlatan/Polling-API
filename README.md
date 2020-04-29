@@ -17,4 +17,4 @@ A node based Polling API app mainly inspired from Quora and Stack Overflow.
 3. /questions/:id/delete -> To delete a question
 4. /options/:id/delete -> To delete an option
 5. /options/:id/add_vote -> To increment the count of votes
-6. questions/:id -> To view a question and it's options
+6. /questions/:id -> To view a question and it's options
